@@ -12,9 +12,10 @@ def countSwaps(a):
     #print(count,a[0],a[])
     return 'Array is sorted in {} swaps. \nFirst Element: {} \nLast Element: {}'.format(count, a[0],a[len(a)-1])
 
-a = [1,2,3]
-b=[3,2,1]
+#a = [1,2,3]
+#b=[3,2,1]
 c=[4,2,3,1]
-print(countSwaps(a))
-print(countSwaps(b))
-print(countSwaps(c))
+d=[40,20,16,23,1]
+#print(countSwaps(a))
+#print(countSwaps(b))
+print(countSwaps(d))

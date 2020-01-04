@@ -24,7 +24,7 @@ def minimumSwaps2(arr):
     temp = [0] * (len(arr) + 1)
     for pos, val in enumerate(arr):
         temp[val] = pos
-        pos += 1
+        #pos += 1
     print(temp)
     swaps = 0
     for i in range(len(arr)):
@@ -38,7 +38,7 @@ def minimumSwaps2(arr):
 
 
 
-arr = [2,3,1,5,4]
+arr = [2,3,5,4,1]
 def minimumSwaps3(arr):
     for i in arr:
         if i != arr.index(i)+1:
@@ -69,4 +69,4 @@ def minimumSwaps5(arr):
                 count +=1
     return count
 
-print(minimumSwaps3(arr))
+print(minimumSwaps2(arr))
